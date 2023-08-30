@@ -44,7 +44,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container-nav {
     background: #FFF;
@@ -155,6 +156,8 @@ address {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
    
 }
 .main-title {
@@ -234,15 +237,22 @@ width: calc((100% - 24px * 3) / 4);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.descr-icons {
+.descr-item-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
     border-radius: 4px;
-border: 1px solid var(--lightslate, #8E8F99);
-background: var(--cloud, #F4F4FD);
-width: 264px;
-height: 112px;
-flex-shrink: 0;
-padding: 24px 100px;
-margin-bottom: 8px;
+    margin-bottom: 8px;
+}
+.descr-icons {
+    border: 1px solid #8E8F99;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    padding: 24px 100px;
+    
 }
 .team {
     background-color: #F4F4FD;
@@ -359,7 +369,7 @@ margin-bottom: 8px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: justify;
-    padding: 40px 32px 0 32px;
+    padding: 40px 32px;
     position: absolute;
     margin: 0;
     top: 0;
@@ -436,9 +446,11 @@ margin-bottom: 8px;
 }
 .social-text {
     color: #FFF;
+    font-weight: 500;
+    margin-bottom: 16px;
 }
 .bottom-page-logotype {
-    padding-right: 120px;
+    margin-right: 120px
 }
 
 .bottom-page-socials-list {
