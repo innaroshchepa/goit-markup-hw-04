@@ -245,15 +245,13 @@ width: calc((100% - 24px * 3) / 4);
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
-}
-.descr-icons {
     border: 1px solid #8E8F99;
     width: 264px;
     height: 112px;
     flex-shrink: 0;
     padding: 24px 100px;
-    
 }
+
 .team {
     background-color: #F4F4FD;
        
@@ -305,7 +303,6 @@ width: calc((100% - 24px * 3) / 4);
     display: flex;
     gap: 24px;
     margin-top: 8px;
-    margin-bottom: 32px;
     align-items: center;
     justify-content: center;
       
@@ -456,7 +453,7 @@ width: calc((100% - 24px * 3) / 4);
 .bottom-page-socials-list {
     display: flex;
     gap: 16px;
-    margin-top: 16px;
+    
     
     
 }
